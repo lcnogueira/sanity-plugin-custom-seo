@@ -14,11 +14,11 @@ Add it as a plugin in `sanity.config.ts` (or .js):
 
 ```ts
 import {defineConfig} from 'sanity'
-import {myPlugin} from 'sanity-plugin-custom-seo'
+import {customSeo} from 'sanity-plugin-custom-seo'
 
 export default defineConfig({
-  //...
-  plugins: [myPlugin({})],
+  plugins: [customSeo()],
+  // plugins: [customSeo({})],
 })
 ```
 
