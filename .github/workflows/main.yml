@@ -41,13 +41,6 @@ permissions:
   contents: read # for checkout
 
 jobs:
-  printInputs:
-    runs-on: ubuntu-latest
-    steps:
-    - run: |
-        echo "Inputs Release: ${{ github.event.inputs.release }}"
-        echo "Build Result: ${{ needs.build.result }}"
-
   build:
     runs-on: ubuntu-latest
     name: Lint & Build
