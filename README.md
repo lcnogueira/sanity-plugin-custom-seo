@@ -17,8 +17,7 @@ import {defineConfig} from 'sanity'
 import {customSeo} from 'sanity-plugin-custom-seo'
 
 export default defineConfig({
-  plugins: [customSeo()],
-  // plugins: [customSeo({})],
+  plugins: [customSeo()], // plugins: [customSeo({})],
 })
 ```
 
