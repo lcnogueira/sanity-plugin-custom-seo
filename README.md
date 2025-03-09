@@ -1,3 +1,6 @@
+# IMPORTANT!
+This package is being used for learning purposes only! If you really want to use an seo package, use this one instead https://github.com/bhargav-bkpatel/sanity-plugin-seo.
+
 # sanity-plugin-custom-seo
 
 > This is a **Sanity Studio v3** plugin.
