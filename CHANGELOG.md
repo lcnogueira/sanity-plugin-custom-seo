@@ -5,6 +5,11 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.1 (2025-03-10)</small>
+
+- Merge pull request #3 from lcnogueira/fix/readme-usage ([147c425](https://github.com/lcnogueira/sanity-plugin-custom-seo/commit/147c425)), closes [#3](https://github.com/lcnogueira/sanity-plugin-custom-seo/issues/3)
+- fix: improve readme usage ([d3c324c](https://github.com/lcnogueira/sanity-plugin-custom-seo/commit/d3c324c))
+
 ## 1.0.0 (2025-03-09)
 
 - fix: repository url ([b64a0d7](https://github.com/lcnogueira/sanity-plugin-custom-seo/commit/b64a0d7))
