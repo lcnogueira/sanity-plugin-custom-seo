@@ -1,5 +1,5 @@
 # IMPORTANT!
-This package is being used for learning purposes only! If you really want to use an seo package, use this one instead https://github.com/bhargav-bkpatel/sanity-plugin-seo.
+This package is being used for learning purposes at the moment! You should NOT use it in production at this point.
 
 # sanity-plugin-custom-seo
 
@@ -21,8 +21,21 @@ import {customSeo} from 'sanity-plugin-custom-seo'
 
 export default defineConfig({
   plugins: [customSeo()], 
-  // plugins: [customSeo({})],
 })
+```
+
+Then you can use the `customSeo` type in any field you want to:
+
+```ts
+const myDocument = {
+  type: "post",
+  name: "post",
+  fields: [
+    {
+      name: "seo",
+      type: "customSeo",
+    },
+  ]
 ```
 
 ## License
